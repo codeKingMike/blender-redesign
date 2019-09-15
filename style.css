@@ -100,11 +100,15 @@ hr {
     font-weight: 300;
 }
 #everythingYouNeed h3 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 300;
 }
 #everythingYouNeed p, #everythingYouNeed li {
     font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+    word-spacing: 0.2rem;
+    color: rgba(233, 225, 225, 1);
 }
 .moveDown {
     margin-top: 70px;
