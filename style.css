@@ -1,5 +1,8 @@
 body {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 980px;
 }
 #mainImg {
     background: url('https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you_header.jpg?x77827');
@@ -57,6 +60,9 @@ a.donateLink {
 section {
     background-color: #F8F8F8; 
 }
+.card {
+    width: 100%;
+}
 .card a {
     text-align: end;
     font-size: 10px;
@@ -92,6 +98,13 @@ hr {
 #everythingYouNeed h2 {
     font-size: 80px;
     font-weight: 300;
+}
+#everythingYouNeed h3 {
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+#everythingYouNeed p, #everythingYouNeed li {
+    font-size: 1.2rem;
 }
 .moveDown {
     margin-top: 70px;
@@ -244,6 +257,17 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
     }
+    #blenderNews {
+        height: auto;
+        padding: 30px 40px;
+        background-color: #EFEFEF;
+        width: 100%;
+    }
+    #devBlogs {
+        padding: 30px 40px;
+        width: 100%;
+        background-color: #EFEFEF;
+    }
     .card-deck {
         margin: auto;
         padding:  0;
@@ -257,7 +281,7 @@ footer p {
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     body {
         
       color: #333;
@@ -290,6 +314,15 @@ footer p {
         left: 50px;
         right: 20px;
         padding: 15px 15px;
+    }
+    #jonDev {
+        height: 100vh;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-width: 980px;
     }
     
   }
